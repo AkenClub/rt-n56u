@@ -604,7 +604,7 @@ INT RT_CfgSetWPAPSKKey(
 
 	if ((keyStringLen < 8) || (keyStringLen > 64))
 	{
-		DBGPRINT(RT_DEBUG_TRACE, ("WPAPSK Key length(%d) error, required 8 ~ 64 characters!(keyStr=%s)\n", 
+		DBGPRINT(RT_DEBUG_TRACE, ("4.1.xx-cfg--WPAPSK Key length(%d) error, required 8 ~ 64 characters!(keyStr=%s)\n", 
 									keyStringLen, keyString));
 		return FALSE;
 	}
