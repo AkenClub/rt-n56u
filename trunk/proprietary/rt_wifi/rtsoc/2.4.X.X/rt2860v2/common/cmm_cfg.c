@@ -316,7 +316,7 @@ INT RT_CfgSetWPAPSKKey(
 	keyLen = strlen(keyString);
 	if ((keyLen < 8) || (keyLen > 64))
 	{
-		DBGPRINT(RT_DEBUG_TRACE, ("WPAPSK Key length(%d) error, required 8 ~ 64 characters!(keyStr=%s)\n", 
+		DBGPRINT(RT_DEBUG_TRACE, ("2.4.xx-2860-cfg-WPAPSK Key length(%d) error, required 8 ~ 64 characters!(keyStr=%s)\n", 
 									keyLen, keyString));
 		return FALSE;
 	}
